@@ -1,6 +1,6 @@
 package uebung1.businesslogic;
 
-public class RomanNumerTransformer implements NumberTransformer{
+public class RomanNumberTransformer implements NumberTransformer{
 
     @Override
     public String transformNumber(int number) {
@@ -14,6 +14,7 @@ public class RomanNumerTransformer implements NumberTransformer{
         int[] romanValues = {1, 4, 5, 9, 10, 40, 50, 90, 100, 400, 500, 900,
         1000};
         //int number = 1234; // z.B.
+    
         StringBuilder romanNumeral = new StringBuilder();
         for (int i = romanValues.length - 1; i >= 0; i--) {
             while (number >= romanValues[i]) {
