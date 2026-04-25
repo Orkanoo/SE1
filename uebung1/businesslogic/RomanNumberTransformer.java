@@ -5,8 +5,8 @@ public class RomanNumberTransformer implements NumberTransformer{
     @Override
     public String transformNumber(int number) {
 
-        if (number <= 1 || number >= 3000) {
-            throw new IllegalArgumentException("Zahl nicht zwischen 1 und 3000.");
+        if (number < 1 || number > 3000) {
+            throw new IllegalArgumentException("Fehler: Es sind nur Zahlen zwischen 1 und 3000 erlaubt.");
         }
 
         String[] romanSymbols = {"I", "IV", "V", "IX", "X", "XL", "L", "XC",
