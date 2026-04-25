@@ -1,0 +1,5 @@
+Die Tests kommen in eine eigene Klasse, damit sie vom eigentlichen Code getrennt sind. Das macht alles übersichtlicher und man kann die Tests einfacher ausführen und anpassen.
+
+Äquivalenzklassen helfen dabei Eingaben zu gruppieren. Statt jeden Wert zu testen, nimmt man nur typische Beispiele aus jeder Gruppe. Das spart Zeit und reicht trotzdem für gute Tests.
+
+Beim Client ist ein Blackbox Test schwierig, weil die Methode nichts zurückgibt, sondern nur etwas auf die Konsole schreibt. Deshalb kann man das Ergebnis nicht einfach vergleichen.

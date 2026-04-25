@@ -1,0 +1,3 @@
+Die Objekterzeugung kann über eine extra Klasse gemacht werden, zum Beispiel eine Factory. Diese erstellt dann den passenden Transformer und gibt ihn zurück.
+
+Hier passt eine Simple Factory. Der Vorteil ist, dass der Client nicht wissen muss, welche konkrete Klasse benutzt wird. Wenn sich später etwas ändert, muss man nur die Factory anpassen und nicht überall im Code.

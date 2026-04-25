@@ -1,0 +1,1 @@
+Gemeinsamer Code kann im Interface bereitgestellt werden, zum Beispiel für die Validierung oder die Fehlermeldung. So muss man ihn nicht in jeder Klasse nochmal schreiben und vermeidet doppelten Code.
