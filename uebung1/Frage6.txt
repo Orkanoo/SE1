@@ -1,0 +1,1 @@
+Client ist eine Klasse die eine andere Klasse nutzt und die Ergebnisse zusammen mit einem String ausgibt. Dies ist nicht in einem Blackbox-Test zu testen, weil das Ergebnis von der genutzen Klasse abhängt. Es würde sich eher anbieten diese andere Klasse direkt zu testen.

@@ -1,0 +1,1 @@
+Die Äquivalenzklassen im Blackbox-Test dienen zur reduzierung des Eingaberaums. Außerdem macht es die Tests Übersichtlich und Strukturiert.
