@@ -1,0 +1,1 @@
+Man sollte Produktionscode und Testcode trennen um Wartung und Testing zu vereinfachen. Ansonsten geht die Übersichtlichkeit verloren.

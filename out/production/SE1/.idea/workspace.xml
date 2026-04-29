@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f43a4727-dac6-408f-aa09-9c44b77f3455" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_platform_console_standalone_1_13_0_M3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uebung1/businesslogic/NumberTransformerFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/setting.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/junit-platform-console-standalone-1.13.0-M3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uebung1/businesslogic/RomanNumberTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/uebung1/businesslogic/RomanNumberTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uebung1/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/uebung1/client/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uebung1/test/TestRomanNumberTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/uebung1/test/TestRomanNumberTransformer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +38,7 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
     &quot;JUnit.TestRomanNumberTransformer.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestRomanNumberTransformer.testRomanNumbers.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestRomanNumberTransformer.testRomanNumbers.executor&quot;: &quot;Run&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
     &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
     &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
@@ -73,7 +63,18 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\uni\BSG\SE1\SE1\uebung1" />
+    </key>
+  </component>
   <component name="RunManager" selected="JUnit.TestRomanNumberTransformer">
+    <configuration default="true" type="AppleRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" IS_LOCATION_SIMULATION_SUPPORTED="false" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" DEVELOPMENT_TEAM="" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
+      <embedded_app_extension_list />
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestRomanNumberTransformer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SE1" />
       <extension name="coverage">
@@ -113,6 +114,13 @@
         <item itemvalue="JUnit.TestRomanNumberTransformer.testRomanNumbers" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28238.7" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
