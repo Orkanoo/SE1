@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f43a4727-dac6-408f-aa09-9c44b77f3455" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/uebung2/CardBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uebung2/CardBoxException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uebung2/DeveloperCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uebung2/EnduserCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uebung2/PersonCard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SE1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SE1/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -39,6 +46,7 @@
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
     &quot;JUnit.TestRomanNumberTransformer.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.TestRomanNumberTransformer.testRomanNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
     &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
     &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
@@ -67,6 +75,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="uebung2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\uni\BSG\SE1\SE1\uebung1" />
     </key>
@@ -111,6 +122,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="SE1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="SE1" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRomanNumberTransformer" />
@@ -141,6 +163,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
