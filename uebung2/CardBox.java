@@ -3,8 +3,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CardBox {
-
+    private static CardBox instance;
     private final List<PersonCard> personCards = new ArrayList<>();
+
+    public static CardBox getInstance() {
+        if (instance == null) {
+            instance = new CardBox();
+        }
+        return instance;
+    }
 
     public void addPersonCard(PersonCard personCard) throws CardBoxException {
         for (PersonCard card : personCards) {
@@ -35,5 +42,9 @@ public class CardBox {
 
     public int size() {
         return personCards.size();
+    }
+
+    public List<PersonCard> getCurrentList() {
+        return List.of();
     }
 }

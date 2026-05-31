@@ -5,13 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f43a4727-dac6-408f-aa09-9c44b77f3455" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/uebung2/CardBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uebung2/CardBoxException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uebung2/DeveloperCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uebung2/EnduserCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uebung2/PersonCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uebung1/Namen_Gruppe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uebung1/Uebung1.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uebung2/CardBox.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uebung2/CardBoxClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uebung2/CardBoxClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uebung2/CardBoxException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uebung2/CardboxStorageException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uebung2/CardboxStorageException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uebung2/DeveloperCard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uebung2/EnduserCard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uebung2/PersonCard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uebung2/PersonCardView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uebung2/PersonCardView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uebung3/CardBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uebung3/CardBoxClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uebung3/CardBoxException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uebung3/CardboxStorageException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uebung3/DeveloperCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uebung3/EnduserCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uebung3/PersonCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uebung3/PersonCardView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uebung3/test/CardBoxStorageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SE1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SE1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uebung2/CardBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/uebung2/CardBox.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,40 +58,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;JUnit.TestRomanNumberTransformer.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestRomanNumberTransformer.testRomanNumbers.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/uni/BSG/SE1/SE1&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.CardBoxTest.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.CardBoxStorageTest (1).executor": "Run",
+    "JUnit.CardBoxStorageTest.executor": "Run",
+    "JUnit.TestRomanNumberTransformer.executor": "Run",
+    "JUnit.TestRomanNumberTransformer.testRomanNumbers.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/uni/BSG/SE1/SE1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="uebung2" />
@@ -82,11 +103,54 @@
       <recent name="D:\uni\BSG\SE1\SE1\uebung1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestRomanNumberTransformer">
+  <component name="RunManager" selected="JUnit.CardBoxStorageTest (1)">
     <configuration default="true" type="AppleRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" IS_LOCATION_SIMULATION_SUPPORTED="false" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" DEVELOPMENT_TEAM="" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
       <embedded_app_extension_list />
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardBoxTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uebung2.CardBoxTest" />
+      <module name="SE1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uebung2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardBoxStorageTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SE1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uebung3.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="uebung3.test" />
+      <option name="MAIN_CLASS_NAME" value="uebung3.test.CardBoxStorageTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardBoxStorageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SE1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uebung2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="uebung2" />
+      <option name="MAIN_CLASS_NAME" value="uebung2.CardBoxStorageTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="TestRomanNumberTransformer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -122,19 +186,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="SE1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="SE1" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CardBoxStorageTest (1)" />
+        <item itemvalue="JUnit.CardBoxStorageTest" />
+        <item itemvalue="Application.CardBoxTest" />
         <item itemvalue="JUnit.TestRomanNumberTransformer" />
         <item itemvalue="JUnit.TestRomanNumberTransformer.testRomanNumbers" />
       </list>

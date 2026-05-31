@@ -1,0 +1,3 @@
+Nachteil bei Rückgabewerten statt Exceptions:
+Der Rückgabewert kann ignoriert werden. Dann merkt man nicht, dass das Löschen fehlgeschlagen ist. 
+Außerdem werden normale Ergebnisse und Fehlermeldungen vermischt.

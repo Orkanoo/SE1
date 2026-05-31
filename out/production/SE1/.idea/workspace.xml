@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f43a4727-dac6-408f-aa09-9c44b77f3455" name="Changes" comment="" />
+    <list default="true" id="f43a4727-dac6-408f-aa09-9c44b77f3455" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/uebung1/Namen_Gruppe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uebung1/Uebung1.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SE1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SE1/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -34,7 +40,9 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.CardBoxTest.executor&quot;: &quot;Run&quot;,
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.CardBoxStorageTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.TestRomanNumberTransformer.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.TestRomanNumberTransformer.testRomanNumbers.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
@@ -66,15 +74,61 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="uebung2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\uni\BSG\SE1\SE1\uebung1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestRomanNumberTransformer">
+  <component name="RunManager" selected="JUnit.CardBoxStorageTest (1)">
     <configuration default="true" type="AppleRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" IS_LOCATION_SIMULATION_SUPPORTED="false" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" DEVELOPMENT_TEAM="" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
       <embedded_app_extension_list />
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardBoxTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uebung2.CardBoxTest" />
+      <module name="SE1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uebung2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardBoxStorageTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SE1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uebung3.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="uebung3.test" />
+      <option name="MAIN_CLASS_NAME" value="uebung3.test.CardBoxStorageTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardBoxStorageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SE1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uebung2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="uebung2" />
+      <option name="MAIN_CLASS_NAME" value="uebung2.CardBoxStorageTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="TestRomanNumberTransformer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -110,19 +164,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="SE1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="SE1" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CardBoxStorageTest (1)" />
+        <item itemvalue="JUnit.CardBoxStorageTest" />
+        <item itemvalue="Application.CardBoxTest" />
         <item itemvalue="JUnit.TestRomanNumberTransformer" />
         <item itemvalue="JUnit.TestRomanNumberTransformer.testRomanNumbers" />
       </list>
@@ -151,6 +197,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
