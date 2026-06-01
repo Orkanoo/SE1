@@ -18,7 +18,7 @@ public class CardBoxStorageTest {
     @Test
     public void saveUndLoadSpeichertUndLaedtPersonCards() throws Exception {
         Path storageFile = tempDir.resolve("cardbox-test.dat");
-        CardBox cardBox = new CardBox(storageFile.toString());
+        CardBox cardBox = CardBox.getInstance(storageFile.toString());
 
         cardBox.addPersonCard(new DeveloperCard(1, "Max", "Mustermann", true));
         cardBox.addPersonCard(new EnduserCard(2, "Erika", "Mustermann", false));
@@ -41,7 +41,7 @@ public class CardBoxStorageTest {
 
     @Test
     public void loadWirftCardboxStorageExceptionWennDateiFehlt() {
-        CardBox cardBox = new CardBox(tempDir.resolve("nicht-vorhanden.dat").toString());
+        CardBox cardBox = CardBox.getInstance(tempDir.resolve("nicht-vorhanden.dat").toString());
 
         assertThrows(CardboxStorageException.class, cardBox::load);
     }
