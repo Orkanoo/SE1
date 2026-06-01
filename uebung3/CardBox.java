@@ -14,20 +14,28 @@ public class CardBox {
     private static CardBox instance;
 
     private final List<PersonCard> personCards = new ArrayList<>();
-    private final String storageFileName;
+    private String storageFileName;
 
     private CardBox() {
         this("cardbox.dat");
     }
 
-    // Paket-private Konstruktorvariante fuer Tests, damit die Testdatei getrennt genutzt werden kann.
-    public CardBox(String storageFileName) {
+    private CardBox(String storageFileName) {
         this.storageFileName = storageFileName;
     }
 
     public static CardBox getInstance() {
         if (instance == null) {
             instance = new CardBox();
+        }
+        return instance;
+    }
+
+    public static CardBox getInstance(String storageFileName) {
+        if (instance == null) {
+            instance = new CardBox(storageFileName);
+        } else {
+            instance.storageFileName = storageFileName;
         }
         return instance;
     }
